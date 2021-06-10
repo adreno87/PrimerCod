@@ -10,7 +10,10 @@ namespace PrimerCod
     {
         static void Main(string[] args)
         {
-         int
+            int numero;
+            numero = 12;
+            Console.WriteLine(numero);
+            Console.ReadKey();
 
 
         }
