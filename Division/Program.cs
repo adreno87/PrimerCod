@@ -10,6 +10,8 @@ namespace Division
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("DIVISION")
+            int numero1, numero2;
         }
     }
 }
