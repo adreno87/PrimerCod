@@ -10,10 +10,16 @@ namespace PrimerCod
     {
         static void Main(string[] args)
         {
-            int numero;
-            numero = 12;
-            Console.WriteLine(numero);
-            Console.ReadKey();
+            Console.WriteLine("RESTA DE DOS NUMEROS");
+            int numero, numero2, resta;  //Declaracion de variables
+            Console.WriteLine("Primer numero");
+            numero = int.Parse(Console.ReadLine()); //Entrada de consola 
+            Console.WriteLine("Segundo numero");
+            numero2= int.Parse(Console.ReadLine());
+            resta = numero - numero2;
+            Console.WriteLine(
+
+
 
 
         }
