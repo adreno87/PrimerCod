@@ -17,7 +17,9 @@ namespace PrimerCod
             Console.WriteLine("Segundo numero");
             numero2= int.Parse(Console.ReadLine());
             resta = numero - numero2;
-            Console.WriteLine(
+            Console.WriteLine("Resultado es "  + resta);
+            Console.ReadKey();
+
 
 
 
