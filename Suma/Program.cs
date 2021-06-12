@@ -10,8 +10,20 @@ namespace Multiplicacion
     {
         static void Main(string[] args)
         {
-            int numero1, numero2, numero3, numero4;
+            Console.WriteLine("MULTIPLICACION");
+            int numero1, numero2, numero3, numero4,resultado ;
+            Console.WriteLine("Primer Numero");
+            numero1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Segundo Numero");
+            numero2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Tercer Numero");
+            numero3 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Cuarto Numero");
+            numero4 = int.Parse(Console.ReadLine());
 
+            resultado = numero1 * numero2 * numero3 * numero4;
+            Console.WriteLine("Resultado es " + resultado);
+            Console.ReadKey();
         }
     }
 }
